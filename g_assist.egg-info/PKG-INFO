@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: g-assist
+Version: 0.1.0
+Requires-Dist: typer[all]
+Requires-Dist: google-generativeai
+Requires-Dist: python-dotenv
+Requires-Dist: rich

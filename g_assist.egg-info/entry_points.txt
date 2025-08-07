@@ -1,0 +1,2 @@
+[console_scripts]
+g-assist = g_assist.main:app

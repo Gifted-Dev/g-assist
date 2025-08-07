@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "g-assist"
+version = "0.1.0"
+dependencies = [
+    "typer[all]",
+    "google-generativeai",
+    "python-dotenv",
+    "rich",
+]
+
+[project.scripts]
+g-assist = "g_assist.main:app"

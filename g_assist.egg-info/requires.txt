@@ -1,0 +1,4 @@
+typer[all]
+google-generativeai
+python-dotenv
+rich
